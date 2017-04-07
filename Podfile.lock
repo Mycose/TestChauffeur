@@ -1,0 +1,28 @@
+PODS:
+  - Mapbox-iOS-SDK (3.3.7)
+  - MapboxGeocoder.swift (0.5.2)
+  - PGDrawerTransition (1.0.1)
+
+DEPENDENCIES:
+  - Mapbox-iOS-SDK
+  - MapboxGeocoder.swift (from `https://github.com/mapbox/MapboxGeocoder.swift.git`, branch `swift3`)
+  - PGDrawerTransition
+
+EXTERNAL SOURCES:
+  MapboxGeocoder.swift:
+    :branch: swift3
+    :git: https://github.com/mapbox/MapboxGeocoder.swift.git
+
+CHECKOUT OPTIONS:
+  MapboxGeocoder.swift:
+    :commit: 8c55be8aa236bcecfeb710316f62a4491011b748
+    :git: https://github.com/mapbox/MapboxGeocoder.swift.git
+
+SPEC CHECKSUMS:
+  Mapbox-iOS-SDK: 142301fa63a6719cbd2eacc0f9e8bf36c65930d9
+  MapboxGeocoder.swift: 373400365d7c1e875b7ff6bb5a95683e47b84788
+  PGDrawerTransition: c6a20b5c53da239f4a63901605b07cb24d7cfeb9
+
+PODFILE CHECKSUM: 17e0ae45e5a28132557061eb313c1291deef913a
+
+COCOAPODS: 1.1.1
